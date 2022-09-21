@@ -44,23 +44,66 @@ nav {
   border: 1px solid rgb(218, 220, 224);
 }
 
-button {
+.btn {
   height: 36px;
   border: none;
   padding: 0 24px;
   font-weight: 700;
   border-radius: 20px;
   margin: 0 5px;
-}
-#sign-in {
   background-color: transparent;
+  padding: 0 20px;
 }
 
-#sign-in:hover {
+.btn:hover {
   background-color: rgb(241, 243, 244);
 }
 
-#register {
+.register {
   background-color: rgb(32, 33, 36);
   color: white;
+}
+.register:hover {
+  background-color: black;
+  box-shadow: 0 3px 5px -1px rgba(0, 0, 0, 0.2),
+    0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12);
+}
+
+.hero-container {
+  margin: auto 50px;
+  padding-top: 48px;
+}
+
+.hero-details {
+  float: left;
+  width: 28%;
+  margin-top: 120px;
+}
+
+.hero-heading {
+  font-size: 36px;
+  font-weight: 400;
+  color: rgb(32, 33, 36);
+}
+
+.hero-description {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  margin-bottom: 32px;
+}
+
+.hero-video {
+  float: right;
+  width: 65%;
+}
+
+.google {
+  box-shadow: 0 3px 5px -1px rgba(0, 0, 0, 0.2),
+    0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12);
+  font-size: 13.333px;
+  font-weight: 500;
+  letter-spacing: 1.25px;
+  margin-bottom: 24px;
 }
