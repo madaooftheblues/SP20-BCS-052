@@ -15,7 +15,8 @@ body {
 }
 
 nav,
-.nav-left {
+.nav-left,
+.heading {
   display: flex;
 }
 
@@ -73,18 +74,20 @@ input[type="search"] {
   margin: 0 10px;
   cursor: pointer;
   overflow: hidden;
+  text-align: center;
+  min-width: 80px;
 }
 
 .btn:hover {
   background-color: rgb(241, 243, 244);
 }
 
-.register {
+.black {
   background-color: rgb(32, 33, 36);
   color: white;
 }
 
-.register:hover {
+.black:hover {
   background-color: rgb(32, 33, 36);
   box-shadow: rgba(60, 64, 67, 0.3) 0px 2px 3px 0px,
     rgba(60, 64, 67, 0.15) 0px 6px 10px 4px;
@@ -159,6 +162,7 @@ input[type="search"] {
   border: 1px solid rgb(199, 200, 201);
   cursor: pointer;
   padding: 5px 16px;
+  margin: 0 5px;
 }
 
 .chips-container {
@@ -169,6 +173,7 @@ input[type="search"] {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   column-gap: 16px;
+  margin-bottom: 128px;
 }
 
 .dataset img {
@@ -193,4 +198,58 @@ input[type="search"] {
 .author {
   margin-bottom: 16px;
   color: rgba(0, 0, 0, 0.5);
+}
+
+.activities {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: 100px 1fr 100px 1fr;
+  column-gap: 16px;
+}
+
+.heading {
+  align-items: center;
+  grid-column: span 8;
+}
+
+.heading > h5 {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+}
+
+.card {
+  grid-column-end: span 2;
+  border-right: 1px solid rgb(199, 200, 201);
+  padding-right: 8px;
+  height: 216px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.card > p {
+  margin-top: 16px;
+  font-size: 14px;
+  color: rgb(32, 33, 36);
+  line-height: 20px;
+}
+
+.avatar {
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+}
+
+.overlap {
+  margin-right: -12px;
+  border: 1px solid white;
+}
+
+.avatars {
+  margin-top: 20px;
+}
+
+.no-border {
+  border: none;
 }
