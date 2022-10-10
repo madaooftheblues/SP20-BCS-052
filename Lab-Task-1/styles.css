@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  padding: 0 10%;
+}
+
+.container p {
+  letter-spacing: 2px;
+}
+
+.header {
+  overflow: hidden;
+}
+
+.header h1 {
+  text-align: center;
+}
+
+.header > img {
+  float: right;
+  margin: 0 30px;
+}
+
+.header > p {
+  line-height: 30px;
+  padding-top: 50px;
+}
