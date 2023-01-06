@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+  text-align: center;
+  background-color: rgb(25, 25, 25);
+  color: #dcae96;
+  font-family: "Aladin", cursive;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
